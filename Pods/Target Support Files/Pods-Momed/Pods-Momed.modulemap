@@ -1,0 +1,6 @@
+framework module Pods_Momed {
+  umbrella header "Pods-Momed-umbrella.h"
+
+  export *
+  module * { export * }
+}
