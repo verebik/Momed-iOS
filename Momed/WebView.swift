@@ -1,3 +1,4 @@
+
 import UIKit
 import WebKit
 import AuthenticationServices
@@ -144,10 +145,7 @@ extension ViewController: WKUIDelegate, WKDownloadDelegate {
                 }
                 if (navigationAction.navigationType == .other &&
                     navigationAction.value(forKey: "syntheticClickType") as! Int == 0 &&
-                    (navigationAction.targetFrame != nil) &&
-                    // no error here, fake warning
-                    (navigationAction.sourceFrame != nil)
-                ) {
+                    navigationAction.targetFrame != nil) {
                     decisionHandler(.allow)
                     return
                 }
