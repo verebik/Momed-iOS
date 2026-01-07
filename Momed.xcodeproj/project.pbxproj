@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25D3517F267A48E0002E5DC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */; };
 		5396A18B11F1E8F8F6876362 /* Pods_Momed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3B8FC277515F2C5309100E /* Pods_Momed.framework */; };
 		595F23A525CEFBFE0053416C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239A25CEFBFD0053416C /* Settings.swift */; };
 		595F23A625CEFBFE0053416C /* Entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 595F239B25CEFBFD0053416C /* Entitlements */; };
@@ -22,10 +21,10 @@
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
 		FA568C9A2F0D00EC000443E7 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA568C992F0D00EC000443E7 /* FirebaseCore.framework */; };
 		FA568C9C2F0D00FB000443E7 /* FirebaseCoreInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA568C9B2F0D00FB000443E7 /* FirebaseCoreInternal.framework */; };
+		FA56DE5A2F0E821800EAD6D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA56DE592F0E821700EAD6D7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Momed/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		59333BAA25CFF706003392A4 /* Momed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F239A25CEFBFD0053416C /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Momed/Settings.swift; sourceTree = "<group>"; };
 		595F239B25CEFBFD0053416C /* Entitlements */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Entitlements; path = Momed/Entitlements; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Momed/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA568C992F0D00EC000443E7 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA568C9B2F0D00FB000443E7 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA56DE592F0E821700EAD6D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB3B8FC277515F2C5309100E /* Pods_Momed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Momed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 		CD89F880237E9D9200C436A1 = {
 			isa = PBXGroup;
 			children = (
-				25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */,
+				FA56DE592F0E821700EAD6D7 /* GoogleService-Info.plist */,
 				595F23A225CEFBFE0053416C /* AppDelegate.swift */,
 				595F239C25CEFBFD0053416C /* Assets.xcassets */,
 				595F239B25CEFBFD0053416C /* Entitlements */,
@@ -165,9 +165,9 @@
 			files = (
 				595F23A625CEFBFE0053416C /* Entitlements in Resources */,
 				CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */,
+				FA56DE5A2F0E821800EAD6D7 /* GoogleService-Info.plist in Resources */,
 				CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */,
 				595F23A725CEFBFE0053416C /* Assets.xcassets in Resources */,
-				25D3517F267A48E0002E5DC0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
