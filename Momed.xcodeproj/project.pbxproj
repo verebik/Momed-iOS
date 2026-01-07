@@ -82,11 +82,11 @@
 		CD89F880237E9D9200C436A1 = {
 			isa = PBXGroup;
 			children = (
+				25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */,
 				595F23A225CEFBFE0053416C /* AppDelegate.swift */,
 				595F239C25CEFBFD0053416C /* Assets.xcassets */,
 				595F239B25CEFBFD0053416C /* Entitlements */,
 				595F23A025CEFBFE0053416C /* Info.plist */,
-				25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */,
 				595F23A325CEFBFE0053416C /* Printer.swift */,
 				595F239F25CEFBFE0053416C /* PushNotifications.swift */,
 				595F239D25CEFBFD0053416C /* SceneDelegate.swift */,
